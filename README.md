@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="SpaceMan/SpaceMan/Assets.xcassets/AppIcon.appiconset/icon_256x256.png" width="128" height="128" alt="SpaceMan Icon">
+ <img width="256" height="256" alt="icon_256x256" src="https://github.com/user-attachments/assets/2298af46-3ada-43d1-8273-818ce83e2605" />
 </p>
 
 <h1 align="center">SpaceMan</h1>
