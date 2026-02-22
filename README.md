@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="SpaceMan/SpaceMan/Assets.xcassets/AppIcon.appiconset/icon_256x256.png" width="128" height="128" alt="SpaceMan Icon">
+  <img src="SpaceMan/Assets.xcassets/AppIcon.appiconset/icon_256x256.png" width="128" height="128" alt="SpaceMan Icon">
 </p>
 
 <h1 align="center">SpaceMan</h1>
@@ -15,12 +15,20 @@
   <img src="https://img.shields.io/badge/license-MIT-green?style=flat-square" alt="MIT License">
 </p>
 
+<p align="center">
+  <img src="screenshots/dashboard.png" width="600" alt="Dashboard">
+</p>
+
 ---
 
 ## Features
 
 ### Disk Scanner
 > Visualize your entire disk usage with an interactive treemap
+
+<p align="center">
+  <img src="screenshots/disk-scanner.png" width="700" alt="Disk Scanner">
+</p>
 
 - **Squarified treemap** rendered with Core Graphics for smooth performance
 - Breadcrumb navigation to drill into any folder
@@ -35,6 +43,10 @@
 ### App Manager
 > Find and remove apps with all their related files
 
+<p align="center">
+  <img src="screenshots/app-manager.png" width="700" alt="App Manager">
+</p>
+
 - Scans `/Applications` and discovers every installed app
 - Finds **related data** across Library folders — caches, app support, preferences, containers, and more
 - App cards with icons and size breakdown
@@ -45,6 +57,10 @@
 
 ### Duplicates Finder
 > Detect and remove duplicate files to reclaim wasted space
+
+<p align="center">
+  <img src="screenshots/duplicate-finder.png" width="700" alt="Duplicates Finder">
+</p>
 
 - Two-phase scan: fast size-based filtering, then SHA-256 hash verification
 - Groups duplicates with clear visual hierarchy
@@ -58,6 +74,10 @@
 ### Smart Clean
 > One-click safe cleanup of caches, downloads, and duplicates
 
+<p align="center">
+  <img src="screenshots/smart-cleaner.png" width="700" alt="Smart Clean">
+</p>
+
 - Orchestrates multiple scanners (Downloads, App Caches, Duplicates) in one pass
 - **Rule engine** classifies every item as Safe, Review, or Risky
 - Category cards with expand/collapse to inspect what will be cleaned
@@ -69,6 +89,10 @@
 
 ### Forgotten Files
 > Find old files you haven't opened in months or years
+
+<p align="center">
+  <img src="screenshots/forgotten-files.png" width="700" alt="Forgotten Files">
+</p>
 
 - Scans for files untouched beyond a configurable age threshold (1 week to 5 years)
 - **Age breakdown bar** — visual stacked bar showing file distribution by age bucket
@@ -104,28 +128,36 @@
 
 ---
 
-## Building
+## Installation
+
+Download the latest release from the [Releases page](https://github.com/18jad/spaceman/releases).
+
+```bash
+# After downloading and unzipping, remove the quarantine flag:
+xattr -cr /Applications/SpaceMan.app
+```
+
+## Building from Source
 
 ```bash
 # Install XcodeGen if needed
 brew install xcodegen
 
 # Generate the Xcode project
-cd SpaceMan
 xcodegen generate
 
 # Build
-xcodebuild -scheme SpaceMan -configuration Debug build
+xcodebuild -scheme SpaceMan -configuration Release build
 ```
 
-Or open `SpaceMan/SpaceMan.xcodeproj` in Xcode and hit Run.
+Or open `SpaceMan.xcodeproj` in Xcode and hit Run.
 
 ---
 
 ## Project Structure
 
 ```
-SpaceMan/SpaceMan/
+SpaceMan/
 ├── Models/          FileNode, FileCategory, AppInfo, AppSettings,
 │                    SmartCleanModels, DuplicateModels, ForgottenFileItem
 ├── Views/           ContentView, TreemapView, SidebarView, BreadcrumbView,
