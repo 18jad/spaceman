@@ -15,10 +15,6 @@
   <img src="https://img.shields.io/badge/license-MIT-green?style=flat-square" alt="MIT License">
 </p>
 
-<p align="center">
-  <img src="screenshots/dashboard.png" width="600" alt="Dashboard">
-</p>
-
 ---
 
 ## Features
