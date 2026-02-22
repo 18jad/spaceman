@@ -145,8 +145,3 @@ SpaceMan/SpaceMan/
 └── SpaceManApp.swift
 ```
 
----
-
-## Author
-
-Built by [@18jad](https://github.com/18jad)
