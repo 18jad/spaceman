@@ -15,6 +15,12 @@
   <img src="https://img.shields.io/badge/license-MIT-green?style=flat-square" alt="MIT License">
 </p>
 
+<p align="center">                                                       
+  <img width="600" alt="Dashboard" src="https://github.com/user-attachments/assets/556971f4-7664-47cf-be75-6cc71d715187" />
+</p>      
+
+ ---
+
 ## Features
 
 ### Disk Scanner
