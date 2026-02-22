@@ -21,7 +21,7 @@
 > Visualize your entire disk usage with an interactive treemap
 
 <p align="center">
-  <img src="screenshots/disk-scanner.png" width="700" alt="Disk Scanner">
+  <img width="700" alt="Disk Scanner" src="https://github.com/user-attachments/assets/6a44fa2e-e499-47f6-a147-5339267b52d1" />
 </p>
 
 - **Squarified treemap** rendered with Core Graphics for smooth performance
@@ -38,7 +38,7 @@
 > Find and remove apps with all their related files
 
 <p align="center">
-  <img src="screenshots/app-manager.png" width="700" alt="App Manager">
+  <img width="700" alt="App Manager" src="https://github.com/user-attachments/assets/eff9c406-246f-473b-98d0-288c09d4bf34" />
 </p>
 
 - Scans `/Applications` and discovers every installed app
@@ -53,7 +53,7 @@
 > Detect and remove duplicate files to reclaim wasted space
 
 <p align="center">
-  <img src="screenshots/duplicate-finder.png" width="700" alt="Duplicates Finder">
+  <img width="700" alt="Duplicates Finder" src="https://github.com/user-attachments/assets/74b168f1-0903-4b44-9843-5e7af92a007a" />
 </p>
 
 - Two-phase scan: fast size-based filtering, then SHA-256 hash verification
@@ -69,7 +69,7 @@
 > One-click safe cleanup of caches, downloads, and duplicates
 
 <p align="center">
-  <img src="screenshots/smart-cleaner.png" width="700" alt="Smart Clean">
+  <img width="700" alt="Smart Clean" src="https://github.com/user-attachments/assets/e621196a-5794-499c-8250-935b6f0d3cd5" />
 </p>
 
 - Orchestrates multiple scanners (Downloads, App Caches, Duplicates) in one pass
@@ -85,7 +85,7 @@
 > Find old files you haven't opened in months or years
 
 <p align="center">
-  <img src="screenshots/forgotten-files.png" width="700" alt="Forgotten Files">
+  <img width="700" alt="Forgotten Files" src="https://github.com/user-attachments/assets/5e5ba4de-06e2-49ef-bd26-19ac8f07b987" />
 </p>
 
 - Scans for files untouched beyond a configurable age threshold (1 week to 5 years)
